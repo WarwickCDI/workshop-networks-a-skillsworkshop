@@ -253,7 +253,103 @@ would point you to are:
 
 The above are suggestions. Explore the network and experiment :blush:
 
-\[Other content here\]
+## Centrality plenary
+
+So far, we have imported and visualised nodes and edges as a network (can also be called a graph or sociogram) as well as had a reflexive exercise using some questions. Although a useful exercise, it may be hard to examine the network by only observing it visually. To help us understand or examine the network further, there is the need to have a way to measure aspects of the network; this is where the concept of Centrality becomes useful. Centrality helps us to understand the importance of nodes (e.g., actors, people, etc.) and edges (e.g., links, connections, etc.) in a network.
+
+Centrality as a concept in the study of social networks is very important. Although important, and like many concepts in research, it is not without criticisms – [particularly when it comes to graph theory](https://doi.org/10.1016/0378-8733(78)90021-7). Such criticisms and graph theories are beyond the scope of this workshop. [Early research](https://doi.org/10.1016/0378-8733(78)90021-7) in the 1940s and 50s tend to relate the concept to perception of leadership, group efficiency, personal satisfaction of participants. The centrality idea as related to human communication was first introduced under the direction of an American Psychosocialist [Alexander Bavelas](https://en.wikipedia.org/wiki/Alex_Bavelas) in the late 1940s; very early research application was done at the Group Networks Laboratory at MIT. In practice, there are several ways of measuring centrality using measures such as Degree, Betweenness, Closeness (this one is credited to Alexander Bavelas), among others. Each centrality measure tends to have its own definition of “importance” so it is important to understand their definition and how that could be applied to your research context (e.g., examining structures of power or prestige or visibility of group members). In this workshop, we will look at both Degree and Betweenness centrality measures; we will adapt the content from [Cambridge Intelligence](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) and [ScienceDirect](https://www.sciencedirect.com/topics/computer-science/degree-centrality). 
+
+### Degree Centrality
+Degree Centrality is considered the simplest centrality measure of node connectivity in a network; it is easy to compute.
+
+**Definition:** Degree centrality is an importance score derived from counting the number of edges connected to each node in a network. Thus, a node having 3 edges will have a degree centrality measure of 3.
+
+**What the measure tells us:** The measure indicates how many direct connections a node has to other nodes in the network. Depending on the context, it may be possible to consider the direction of the edges or links to the node. For example, exploring by counting the number of inbound edges (refer to as In-Degree) or counting the number of outbound edges (refer to as Out-Degree).
+
+**Application (when to use it):** The measure is usually considered when investigating connected nodes in a network. For example, popular quakers in the quakers network being explored; we will try and explore this later.
+
+### Betweenness Centrality
+**Definition:** Betweenness centrality indicates the number of times a node in each network lies on the shortest path between nodes of that network. The idea behind Betweenness Centrality is also linked to Alexander Bavelas’ idea in the 1948 that “a point in a communication network is central to the extent that it falls on the shortest path between pairs of other points” (Source – Linton C. Freeman).
+
+**What the measure tells us:** Betweenness centrality measure can show important nodes that serve as “bridges” between other nodes in a network. We can measure the extent to which a node plays a bridging role or “betweenness” in a network.
+
+**Application (when to use it):** The measure may be used, for example, to identify individuals (or nodes) who influence the information flow in a group or network. 
+
+## Demonstrate centrality on Quaker dataset
+This part will demonstrate how both the Degree and Betweenness centrality measures could be explored using Gephi. We will now go back to using Gephi to explore the two centrality measures.
+
+### Degree Centrality demo
+Step 1. Open Gephi and create a New Project
+
+![](images/fig9.png)
+
+Step 2. Save empty project as **Project_centrality.gephi**
+
+![](images/fig10.png) | ![](images/fig11.png)
+
+Step 3. Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
+
+![](images/fig12.png) | ![](images/fig13.png)
+
+Step 4. Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
+
+![](images/fig14.png)
+
+Step 5. Now we want to focus on the Nodes in the network and compute the Degree Centrality measure. We want to use colour coding that can given us some idea about more or less or middle connected nodes. As a random choice, let’s use a red-yellow-blue coding system where red is more connected, blue is less connected, and yellow is middle (i.e., somewhere in between more or less connected nodes). To do this, go to Appearance dialog -> Select Color -> Select Nodes -> Select Ranking -> Select Degree [this is the selection of Degree Centrality measure] -> Select Color Default -> Select the last Color-coding system (i.e., red-yellow-blue) -> Click Apply button.
+
+![](images/fig15.png)
+
+Step 6. You might have noticed that although there are differences in the color of the Nodes in terms of “connectedness” after computing the Degree Centrality measure, the sizes of the Nodes remain the same which may serve as blocker for interpretation or better visualisation. Let us try to use the steps in the screenshot below to alter the sizes of the Nodes to also reflect the Degree Centrality measure as applied to the color of the Nodes. Save project.
+
+![](images/fig16.png)
+
+Step 7. This setup has a **question** about the output from Step 6 above which is: **How many people or Quakers do you think are likely connected in the group or network per Step 5 output (see screenshot below)?** Save the project.
+
+![](images/fig17.png)
+
+### Betweenness Centrality demo
+Some of the steps here will be without screenshots given that previous section on Degree Centrality demo has dealt with them. 
+
+Step 1. Open Gephi and create a New Project
+
+Step 2. Save empty project as **Project_betweeness_centrality.gephi**
+
+Step 3. Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
+
+Step 4. Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
+
+Step 5. We need to compute Network Diameter (ND) statistics prior to calculating Betweenness Centrality. Go to Statistics dialog -> Network Diameter -> Click Run button -> Click Ok button in “Graph Distance settings dialog” -> Check HTML Report and close it. The ND is the longest graph-distance between any two Nodes in the Quakers Network or, in other words ND is answer to the question “How far are the two most distant Nodes in the network?”. Note that connected nodes have a graph distance of 1. 
+
+![](images/fig18.png)
+
+Step 6. Now let us compute Betweenness Centrality measure using same color scheme (see steps in screenshot below).
+
+![](images/fig19.png)
+
+Step 7. Now let us compute Betweenness Centrality measure using same Node size scheme (see steps in screenshot below).
+
+![](images/fig20.png)
+
+Step 8. Based on the output from Step 7 shown below, what are the important Nodes that appear to be serving as “bridges” or “betweenness” between other Nodes in a network?
+
+![](images/fig21.png)
+
+## Introduction to analytical/interpretive approaches
+
+We have gone through several approaches in analysing the Quakers data (one possible area of interest, at least in this workshop), using variety of questions to interrogate what we have visualised as well as the measures we have computed in Gephi using the data. As a next step, we would like to introduce you to the “Resource B: Possible analytical approach” part of a [“How to guide” report or resource from Home Office gives an overview of social network analysis](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/491572/socnet_howto.pdf) (Table below shows an adapted version). 
+
+Knowing that validation is important in such analysis, we would like to probe further to find out the names linked to the Nodes and Google some of the names to see if we can find any useful information to convince us if these Quakers are indeed important in the network. There may be several ways of identifying the names of Quakers behind the Nodes in the network. In our case, we will use the text dialog beneath the graph or white canvas in Gephi to label the Nodes in the network (see the four steps in screenshots below). 
+
+![](images/fig22.png)
+
+From the two maps below generated from computing the two measures, it appears that the most important Quakers might be George Fox and William Penn! As part of our validation questions (see Table below), we will use Google search engine to gather some information about these two people to validate our intuitive conclusion. 
+
+Task for everyone: Please Google “George Fox” and say something about him and our conclusion.
+
+![](images/fig23.png) | ![](images/fig24.png)
+
+
+![](images/Table1.png)
 
 ## Going Further
 
