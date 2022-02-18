@@ -264,7 +264,7 @@ Degree Centrality is considered the simplest centrality measure of node connecti
 
 **Definition:** Degree centrality is an importance score derived from counting the number of edges connected to each node in a network. Thus, a node having 3 edges will have a degree centrality measure of 3.
 
-**What the measure tells us:** The measure indicates how many direct connections a node has to other nodes in the network. Depending on the context, it may be possible to consider the direction of the edges or links to the node. For example, exploring by counting the number of inbound edges (refer to as In-Degree) or counting the number of outbound edges (refer to as Out-Degree).
+**What the measure tells us:** The measure indicates how many direct connections a node has to other nodes in the network.
 
 **Application (when to use it):** The measure is usually considered when investigating connected nodes in a network. For example, popular quakers in the quakers network being explored; we will try and explore this later.
 
@@ -295,7 +295,7 @@ Step 4. Zoom-in graph on the white canvas so that it is centred but more legible
 
 ![](images/fig14.png)
 
-Step 5. Now we want to focus on the Nodes in the network and compute the Degree Centrality measure. We want to use colour coding that can given us some idea about more or less or middle connected nodes. As a random choice, let’s use a red-yellow-blue coding system where red is more connected, blue is less connected, and yellow is middle (i.e., somewhere in between more or less connected nodes). To do this, go to Appearance dialog -> Select Color -> Select Nodes -> Select Ranking -> Select Degree [this is the selection of Degree Centrality measure] -> Select Color Default -> Select the last Color-coding system (i.e., red-yellow-blue) -> Click Apply button.
+Step 5. Now we want to focus on the Nodes in the network and compute the Degree Centrality measure. We want to use colour coding that can given us some idea about more or less or middle connected nodes. As a random choice, let’s use a red-yellow-blue coding system/scheme where red is less connected, blue is more connected, and yellow is middle (i.e., somewhere in between more or less connected nodes). To do this, go to Appearance dialog -> Select Color -> Select Nodes -> Select Ranking -> Select Degree [this is the selection of Degree Centrality measure] -> Select Color Default -> Select the last Color-coding system (i.e., red-yellow-blue) -> Click Apply button.
 
 ![](images/fig15.png)
 
@@ -303,7 +303,7 @@ Step 6. You might have noticed that although there are differences in the color 
 
 ![](images/fig16.png)
 
-Step 7. This setup has a **question** about the output from Step 6 above which is: **How many people or Quakers do you think are likely connected in the group or network per Step 5 output (see screenshot below)?** Save the project.
+Step 7. This setup has a **question** about the output from Step 6 above which is: **How many Nodes do you think have many edges per Step 5 output (see screenshot below and recall the definition of Degree Centrality measure as well as the color scheme used)?** Save the project.
 
 ![](images/fig17.png)
 
@@ -338,13 +338,13 @@ Step 8. Based on the output from Step 7 shown below, what are the important Node
 
 We have gone through several approaches in analysing the Quakers data (one possible area of interest, at least in this workshop), using variety of questions to interrogate what we have visualised as well as the measures we have computed in Gephi using the data. As a next step, we would like to introduce you to the “Resource B: Possible analytical approach” part of a [“How to guide” report or resource from Home Office gives an overview of social network analysis](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/491572/socnet_howto.pdf) (Table below shows an adapted version). 
 
-Knowing that validation is important in such analysis, we would like to probe further to find out the names linked to the Nodes and Google some of the names to see if we can find any useful information to convince us if these Quakers are indeed important in the network. There may be several ways of identifying the names of Quakers behind the Nodes in the network. In our case, we will use the text dialog beneath the graph or white canvas in Gephi to label the Nodes in the network (see the four steps in screenshots below). 
+Knowing that validation is important in such analysis, we would like to probe further to find out the names linked to the Nodes and Google some of the names to see if we can find any useful information to convince us if these Quakers are indeed "influential" in the network. There may be several ways of identifying the names of Quakers behind the Nodes in the network. In our case, we will use the text dialog beneath the graph or white canvas in Gephi to label the Nodes in the network (see the four steps in screenshots below). 
 
 ![](images/fig22.png)
 
 From the two maps below generated from computing the two measures, it appears that the most important Quakers might be George Fox and William Penn! As part of our validation questions (see Table below), we will use Google search engine to gather some information about these two people to validate our intuitive conclusion. 
 
-Task for everyone: Please Google “George Fox” and say something about him and our conclusion.
+**Task for everyone:** How many of you have studied or know much about George Fox? What do you find if you Google “George Fox”? Is what you know relevant to what you are seeing in the Quakers' network below?
 
 ![](images/fig23.png) | ![](images/fig24.png)
 
