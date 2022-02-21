@@ -1,6 +1,8 @@
 Networks: A Skills Workshop
 ================
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6204100.svg)](https://doi.org/10.5281/zenodo.6204100)
+
 # Introduction
 
 Do you want to learn a new skill as a historian? The Information and
