@@ -27,16 +27,14 @@ social networks
 
 ## Requirements
 
-• Properly installed Gephi software version 0.9.2. You can find
-installation guide here. Issues with Java, speak to helpdesk. Email if
-stuck. If you encounter Gephi issues with Java, then you can also look
-at this blog post and video
+• Properly installed [Gephi software version 0.9.2](https://gephi.org/users/download/). You can find
+installation guide [here](https://gephi.org/users/install/). Issues with Java, speak to helpdesk. Email if stuck. If you encounter Gephi issues with Java, then you can also look at [this blog post](https://medium.com/coder-snorts/gephi-is-broken-on-mac-os-97fbaef4305e#.cogwsls13) and or video [here](https://www.youtube.com/watch?v=3r3hU_gfcuA) or [there](https://youtu.be/Lv59Lu-Jqxs).
 
-• Managed Windows Desktop access to Gephi or via Software Centre
+• Managed Windows Desktop access to Gephi or via Software Centre.
 
-• Access to a computer with internet connection for downloading data
+• Access to a computer with internet connection for downloading data.
 
-• Data source for this workshop: Quakers
+• Data source for this workshop: [Quakers](https://github.com/melaniewalsh/sample-social-network-datasets/tree/master/sample-datasets/quakers).
 
 # Activity 1: Quakers Network
 
@@ -257,7 +255,7 @@ The above are suggestions. Explore the network and experiment :blush:
 
 ## Centrality plenary
 
-So far, we have imported and visualised nodes and edges as a network (can also be called a graph or sociogram) as well as had a reflexive exercise using some questions. Although a useful exercise, it may be hard to examine the network by only observing it visually. To help us understand or examine the network further, there is the need to have a way to measure aspects of the network; this is where the concept of Centrality becomes useful. Centrality helps us to understand the importance of nodes (e.g., actors, people, etc.) and edges (e.g., links, connections, etc.) in a network.
+So far, we have imported and visualised nodes and edges as a network (can also be called a graph or sociogram) as well as had a reflexive exercise using some questions. Although a useful exercise, it may be hard to examine the network by only observing it visually. To help us understand or examine the network further, there is the need to have a way to measure aspects of the network; this is where the concept of Centrality becomes useful. Centrality helps us to understand the importance of nodes (e.g., actors, people, etc.) and edges (e.g., links, connections, etc.) in a network. In a literal sense, Centrality is the quality or fact of being the main or most important part of something (a network in our case).
 
 Centrality as a concept in the study of social networks is very important. Although important, and like many concepts in research, it is not without criticisms – [particularly when it comes to graph theory](https://doi.org/10.1016/0378-8733(78)90021-7). Such criticisms and graph theories are beyond the scope of this workshop. [Early research](https://doi.org/10.1016/0378-8733(78)90021-7) in the 1940s and 50s tend to relate the concept to perception of leadership, group efficiency, personal satisfaction of participants. The centrality idea as related to human communication was first introduced under the direction of an American Psychosocialist [Alexander Bavelas](https://en.wikipedia.org/wiki/Alex_Bavelas) in the late 1940s; very early research application was done at the Group Networks Laboratory at MIT. In practice, there are several ways of measuring centrality using measures such as Degree, Betweenness, Closeness (this one is credited to Alexander Bavelas), among others. Each centrality measure tends to have its own definition of “importance” so it is important to understand their definition and how that could be applied to your research context (e.g., examining structures of power or prestige or visibility of group members). In this workshop, we will look at both Degree and Betweenness centrality measures; we will adapt the content from [Cambridge Intelligence](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) and [ScienceDirect](https://www.sciencedirect.com/topics/computer-science/degree-centrality). 
 
@@ -271,7 +269,7 @@ Degree Centrality is considered the simplest centrality measure of node connecti
 **Application (when to use it):** The measure is usually considered when investigating connected nodes in a network. For example, popular quakers in the quakers network being explored; we will try and explore this later.
 
 ### Betweenness Centrality
-**Definition:** Betweenness centrality indicates the number of times a node in each network lies on the shortest path between nodes of that network. The idea behind Betweenness Centrality is also linked to Alexander Bavelas’ idea in the 1948 that “a point in a communication network is central to the extent that it falls on the shortest path between pairs of other points” (Source – Linton C. Freeman).
+**Definition:** Betweenness centrality indicates the number of times a node in each network lies on the shortest path between nodes of that network. The idea behind Betweenness Centrality is also linked to Alexander Bavelas’ idea in the 1948 that “a point in a communication network is central to the extent that it falls on the shortest path between pairs of other points” ([Source – Linton C. Freeman](https://doi.org/10.2307/3033543)).
 
 **What the measure tells us:** Betweenness centrality measure can show important nodes that serve as “bridges” between other nodes in a network. We can measure the extent to which a node plays a bridging role or “betweenness” in a network.
 
