@@ -11,8 +11,8 @@ lead an introductory practitioners’ approach on the applications of
 social networks as a complimentary 90-minute component to a composite
 session (Networks: A Skills Workshop). This practical part to be
 preceded by a talk from Kate Davidson (Sheffield) on Social Network
-Analysis from her article on Early Modern Social Networks: Antecedents,
-Opportunities, and Challenges in American Historical Review.
+Analysis from her article on [Early Modern Social Networks: Antecedents,
+Opportunities, and Challenges](https://doi.org/10.1093/ahr/rhz253) in American Historical Review.
 
 ## Learning objectives
 
