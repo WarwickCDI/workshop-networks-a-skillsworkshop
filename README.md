@@ -5,13 +5,9 @@ Networks: A Skills Workshop
 
 # Introduction
 
-Do you want to learn a new skill as a historian? The Information and
-Digital Group Technology for Research (IDGT4R) team has been asked to
-lead an introductory practitioners’ approach on the applications of
-social networks as a complimentary 90-minute component to a composite
-session (Networks: A Skills Workshop). This practical part to be
-preceded by a talk from Kate Davidson (Sheffield) on Social Network
-Analysis from her article on [Early Modern Social Networks: Antecedents,
+Do you want to learn a new skill? In this session we explore how to use the gephi software to visualise
+and understand networks. The original session was preceded by a talk by Kate Davidson (Sheffield) on social
+network analysis from her article on [Early Modern Social Networks: Antecedents,
 Opportunities, and Challenges](https://doi.org/10.1093/ahr/rhz253) in American Historical Review.
 
 ## Learning objectives
@@ -27,10 +23,7 @@ social networks
 
 ## Requirements
 
-• Properly installed [Gephi software version 0.9.2](https://gephi.org/users/download/). You can find
-installation guide [here](https://gephi.org/users/install/). Issues with Java, speak to helpdesk. Email if stuck. If you encounter Gephi issues with Java, then you can also look at [this blog post](https://medium.com/coder-snorts/gephi-is-broken-on-mac-os-97fbaef4305e#.cogwsls13) and or video [here](https://www.youtube.com/watch?v=3r3hU_gfcuA) or [there](https://youtu.be/Lv59Lu-Jqxs).
-
-• Managed Windows Desktop access to Gephi or via Software Centre.
+• [Gephi software](https://gephi.org/users/download/). You can find an installation guide [here](https://gephi.org/users/install/). If you have java issues and are a University of Warwick student then please do contact the ITS helpdesk. If you encounter Gephi issues with Java, then you can also look at [this blog post](https://medium.com/coder-snorts/gephi-is-broken-on-mac-os-97fbaef4305e#.cogwsls13) and or video [here](https://www.youtube.com/watch?v=3r3hU_gfcuA) or [there](https://youtu.be/Lv59Lu-Jqxs). *Note:* Gephi is available via the Software Centre if you are using a Windows 10 Managed Laptop.
 
 • Access to a computer with internet connection for downloading data.
 
@@ -401,7 +394,6 @@ download. The below are just a few examples.
     Hermeneutics to Data to Networks: Data Extraction and Network
     Visualization of Historical Sources \| Programming
     Historian](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
-    .
 
 -   [Martin Grandjean » Digital humanities, Data visualization, Network
     analysis » GEPHI – Introduction to Network Analysis and
