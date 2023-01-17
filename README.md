@@ -1,11 +1,11 @@
-Networks: A Skills Workshop
+Networks: How to explore and visualise with Gephi
 ================
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6204100.svg)](https://doi.org/10.5281/zenodo.6204100)
+[![DOI](INSERT NEW ZENODO DOI)](NEW ZENODO DOI)
 
 # Introduction
 
-Do you want to learn a new skill? In this session we explore how to use the gephi software to visualise
+Do you want to learn a new skill? In this session we explore how to use the Gephi software to visualise
 and understand networks. The original session was preceded by a talk by Kate Davidson (Sheffield) on social
 network analysis from her article on [Early Modern Social Networks: Antecedents,
 Opportunities, and Challenges](https://doi.org/10.1093/ahr/rhz253) in American Historical Review.
