@@ -26,6 +26,10 @@ social networks
 
 • Data source for this workshop: [Quakers](https://github.com/melaniewalsh/sample-social-network-datasets/tree/master/sample-datasets/quakers).
 
+• This workshop do not require any prior knowledge of Gephi or social network data.
+
+• Up to 90 minutes of your time.
+
 # Activity 1: Quakers Network
 
 ### Setup the folder for your work
