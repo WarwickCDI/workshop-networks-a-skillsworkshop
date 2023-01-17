@@ -1,4 +1,4 @@
-Networks: How to explore and visualise with Gephi
+Networks: Exploring and visualising with Gephi
 ================
 
 [![DOI](INSERT NEW ZENODO DOI)](NEW ZENODO DOI)
