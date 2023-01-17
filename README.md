@@ -1,4 +1,4 @@
-Historical Networks: Exploring and visualising with Gephi
+Historical Networks: Exploring and Visualising with Gephi
 ================
 
 [![DOI](INSERT NEW ZENODO DOI)](NEW ZENODO DOI)
