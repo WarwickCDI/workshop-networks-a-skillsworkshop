@@ -1,11 +1,11 @@
-Historical Networks: Exploring and Visualising with Gephi
+Social Networks: Exploring and Visualising with Gephi
 ================
 
 [![DOI](INSERT NEW ZENODO DOI)](NEW ZENODO DOI)
 
 # Introduction
 
-**Do you want to learn a new skill in this Spring Term?** In this session we explore how to use the Gephi software to visualise and understand social networks. 
+**Do you want to learn a new skill in this Spring Term?** In this session we explore how to use the Gephi software to visualise and understand 17th century social networks. 
 
 ## Learning objectives
 
