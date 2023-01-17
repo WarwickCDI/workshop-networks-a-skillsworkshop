@@ -1,4 +1,4 @@
-17th Century Networks: Exploring and visualising with Gephi
+Historical Networks: Exploring and visualising with Gephi
 ================
 
 [![DOI](INSERT NEW ZENODO DOI)](NEW ZENODO DOI)
