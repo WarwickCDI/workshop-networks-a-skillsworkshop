@@ -1,14 +1,11 @@
-Networks: Exploring and visualising with Gephi
+17th Century Networks: Exploring and visualising with Gephi
 ================
 
 [![DOI](INSERT NEW ZENODO DOI)](NEW ZENODO DOI)
 
 # Introduction
 
-Do you want to learn a new skill? In this session we explore how to use the Gephi software to visualise
-and understand networks. The original session was preceded by a talk by Kate Davidson (Sheffield) on social
-network analysis from her article on [Early Modern Social Networks: Antecedents,
-Opportunities, and Challenges](https://doi.org/10.1093/ahr/rhz253) in American Historical Review.
+**Do you want to learn a new skill in this Spring Term?** In this session we explore how to use the Gephi software to visualise and understand social networks. 
 
 ## Learning objectives
 
