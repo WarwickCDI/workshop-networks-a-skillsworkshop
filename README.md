@@ -32,6 +32,10 @@ social networks
 
 # Activity 1: Quakers Network
 
+### Quakers: who are they?
+
+Quakers simply means formally as the ["Religious Society of Friends](https://en.wikipedia.org/wiki/Quakers)"; a society founded in England in the mid-17th century and made up of a historically Protestant Christian set of denominations. Quakers have a believe that each human being has the ability to experience the "light within" or see "that of God in every one". 
+
 ### Setup the folder for your work
 
 Think about where on your computer that you want to work and create a
