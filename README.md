@@ -251,7 +251,7 @@ would point you to are:
 
 The above are suggestions. Explore the network and experiment :blush:
 
-## Centrality plenary
+# Activity 2: Centrality plenary
 
 So far, we have imported and visualised nodes and edges as a network (can also be called a graph or sociogram) as well as had a reflexive exercise using some questions. Although a useful exercise, it may be hard to examine the network by only observing it visually. To help us understand or examine the network further, there is the need to have a way to measure aspects of the network; this is where the concept of Centrality becomes useful. Centrality helps us to understand the importance of nodes (e.g., actors, people, etc.) and edges (e.g., links, connections, etc.) in a network. In a literal sense, Centrality is the quality or fact of being the main or most important part of something (a network in our case).
 
