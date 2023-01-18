@@ -145,7 +145,7 @@ network).
 
     ![](images/fig3.png)
 
-2.  Click on file and select ‘Import Spreadsheet’
+2.  Click on file and select ‘Import Spreadsheet’.
 
     ![](images/fig4.png)
 
@@ -277,7 +277,7 @@ Degree Centrality is considered the simplest centrality measure of node connecti
 This part will demonstrate how both the Degree and Betweenness centrality measures could be explored using Gephi. We will now go back to using Gephi to explore the two centrality measures.
 
 ### Degree Centrality demo
-Step 1. Open Gephi and create a New Project
+**Step 1.** Open Gephi and create a New Project
 
 ![](images/fig9.png)
 
@@ -285,23 +285,23 @@ Step 2. Save empty project as **Project_centrality.gephi**
 
 ![](images/fig10.png) | ![](images/fig11.png)
 
-Step 3. Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
+**Step 3.** Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
 
 ![](images/fig12.png) | ![](images/fig13.png)
 
-Step 4. Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
+**Step 4.** Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
 
 ![](images/fig14.png)
 
-Step 5. Now we want to focus on the Nodes in the network and compute the Degree Centrality measure. We want to use colour coding that can given us some idea about more or less or middle connected nodes. As a random choice, let’s use a red-yellow-blue coding system/scheme where red is less connected, blue is more connected, and yellow is middle (i.e., somewhere in between more or less connected nodes). To do this, go to Appearance dialog -> Select Color -> Select Nodes -> Select Ranking -> Select Degree [this is the selection of Degree Centrality measure] -> Select Color Default -> Select the last Color-coding system (i.e., red-yellow-blue) -> Click Apply button.
+**Step 5.** Now we want to focus on the Nodes in the network and compute the Degree Centrality measure. We want to use colour coding that can given us some idea about more or less or middle connected nodes. As a random choice, let’s use a red-yellow-blue coding system/scheme where red is less connected, blue is more connected, and yellow is middle (i.e., somewhere in between more or less connected nodes). To do this, go to Appearance dialog -> Select Color -> Select Nodes -> Select Ranking -> Select Degree [this is the selection of Degree Centrality measure] -> Select Color Default -> Select the last Color-coding system (i.e., red-yellow-blue) -> Click Apply button.
 
 ![](images/fig15.png)
 
-Step 6. You might have noticed that although there are differences in the color of the Nodes in terms of “connectedness” after computing the Degree Centrality measure, the sizes of the Nodes remain the same which may serve as blocker for interpretation or better visualisation. Let us try to use the steps in the screenshot below to alter the sizes of the Nodes to also reflect the Degree Centrality measure as applied to the color of the Nodes. Save project.
+**Step 6.** You might have noticed that although there are differences in the color of the Nodes in terms of “connectedness” after computing the Degree Centrality measure, the sizes of the Nodes remain the same which may serve as blocker for interpretation or better visualisation. Let us try to use the steps in the screenshot below to alter the sizes of the Nodes to also reflect the Degree Centrality measure as applied to the color of the Nodes. Save project.
 
 ![](images/fig16.png)
 
-Step 7. This setup has a **question** about the output from Step 6 above which is: **How many Nodes do you think have many edges per Step 5 output (see screenshot below and recall the definition of Degree Centrality measure as well as the color scheme used)?** Save the project.
+**Step 7.** This setup has a **question** about the output from Step 6 above which is: **How many Nodes do you think have many edges per Step 5 output (see screenshot below and recall the definition of Degree Centrality measure as well as the color scheme used)?** Save the project.
 
 ![](images/fig17.png)
 
