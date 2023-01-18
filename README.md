@@ -34,7 +34,7 @@ social networks
 
 ### Quakers: who are they?
 
-Quakers simply means formally as the ["Religious Society of Friends](https://en.wikipedia.org/wiki/Quakers)"; a society founded in England in the mid-17th century and made up of a historically Protestant Christian set of denominations. Quakers have a believe that each human being has the ability to experience the "light within" or see "that of God in every one". 
+Quakers simply means formally as the ["Religious Society of Friends](https://en.wikipedia.org/wiki/Quakers)"; a society founded in England in the mid-17th century and made up of a historically Protestant Christian set of denominations. Quakers have a believe that each human being has the ability to experience the "light within" or see "that of God in every one". As indicated in the requirements section above, we will use social network data about the relationships between seventeenth-century Quakers; data is a scaled-down version of larger dataset which is a reconstruction of the early modern social network of Britain (1500-1700).
 
 ### Setup the folder for your work
 
