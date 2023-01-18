@@ -308,27 +308,27 @@ Step 7. This setup has a **question** about the output from Step 6 above which i
 ### Betweenness Centrality demo
 Some of the steps here will be without screenshots given that previous section on Degree Centrality demo has dealt with them. 
 
-Step 1. Open Gephi and create a New Project
+**Step 1.** Open Gephi and create a New Project
 
-Step 2. Save empty project as **Project_betweeness_centrality.gephi**
+**Step 2**. Save empty project as **Project_betweeness_centrality.gephi**
 
-Step 3. Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
+**Step 3.** Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
 
-Step 4. Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
+**Step 4.** Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
 
-Step 5. We need to compute Network Diameter (ND) statistics prior to calculating Betweenness Centrality. Go to Statistics dialog -> Network Diameter -> Click Run button -> Click Ok button in “Graph Distance settings dialog” -> Check HTML Report and close it. The ND is the longest graph-distance between any two Nodes in the Quakers Network or, in other words ND is answer to the question “How far are the two most distant Nodes in the network?”. Note that connected nodes have a graph distance of 1. 
+**Step 5.** We need to compute Network Diameter (ND) statistics prior to calculating Betweenness Centrality. Go to Statistics dialog -> Network Diameter -> Click Run button -> Click Ok button in “Graph Distance settings dialog” -> Check HTML Report and close it. The ND is the longest graph-distance between any two Nodes in the Quakers Network or, in other words ND is answer to the question “How far are the two most distant Nodes in the network?”. Note that connected nodes have a graph distance of 1. 
 
 ![](images/fig18.png)
 
-Step 6. Now let us compute Betweenness Centrality measure using same color scheme (see steps in screenshot below).
+**Step 6.** Now let us compute Betweenness Centrality measure using same color scheme (see steps in screenshot below).
 
 ![](images/fig19.png)
 
-Step 7. Now let us compute Betweenness Centrality measure using same Node size scheme (see steps in screenshot below).
+**Step 7.** Now let us compute Betweenness Centrality measure using same Node size scheme (see steps in screenshot below).
 
 ![](images/fig20.png)
 
-Step 8. Based on the output from Step 7 shown below, what are the important Nodes that appear to be serving as “bridges” or “betweenness” between other Nodes in a network?
+**Step 8.** Based on the output from Step 7 shown below, what are the important Nodes that appear to be serving as “bridges” or “betweenness” between other Nodes in a network?
 
 ![](images/fig21.png)
 
