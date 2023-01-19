@@ -1,8 +1,6 @@
 Social Networks: Exploring and Visualising with Gephi
 ================
 
-[![DOI](INSERT NEW ZENODO DOI)](NEW ZENODO DOI)
-
 # Introduction
 
 **Do you want to learn a new skill in this Spring Term?** In this workshop we explore how to use the Gephi software to visualise and understand 17th century social networks. Gephi is a free open-source visualization and exploration tool useful for all kinds of graphs and networks. Visual thinking based on interactive interfaces tend to facilitate reasoning and compliment traditional statistics which in turn may enhance hypothesis building, pattern discovery as well as research and teaching generally. This workshop is being delivered by a team of Senior Research Software Engineers from the Centre for Digital Enquiry ([CDI](https://warwick.ac.uk/fac/cross_fac/cdi/)) and Information and Digital Group (IDG) Technology for Research in the University of Warwick.
