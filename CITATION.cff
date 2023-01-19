@@ -7,8 +7,7 @@ authors:
 - family-names: "Godwin"
   given-names: "Yeboah"
   orcid: "https://orcid.org/0000-0003-4618-3175"
-title: "Networks: A skillsworkshop"
-version: 1.0.0
-doi: 10.5281/zenodo.1234
-date-released: 2022-02-21
+title: "Social Networks: Exploring and Visualising with Gephi"
+version: 2.0.0
+date-released: 2023-01-19
 url: "https://github.com/WarwickCDI/workshop-networks-a-skillsworkshop"
