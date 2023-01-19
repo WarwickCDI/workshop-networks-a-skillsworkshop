@@ -1,18 +1,11 @@
-Networks: A Skills Workshop
+Social Networks: Exploring and Visualising with Gephi
 ================
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6204100.svg)](https://doi.org/10.5281/zenodo.6204100)
+[![DOI](INSERT NEW ZENODO DOI)](NEW ZENODO DOI)
 
 # Introduction
 
-Do you want to learn a new skill as a historian? The Information and
-Digital Group Technology for Research (IDGT4R) team has been asked to
-lead an introductory practitioners’ approach on the applications of
-social networks as a complimentary 90-minute component to a composite
-session (Networks: A Skills Workshop). This practical part to be
-preceded by a talk from Kate Davidson (Sheffield) on Social Network
-Analysis from her article on [Early Modern Social Networks: Antecedents,
-Opportunities, and Challenges](https://doi.org/10.1093/ahr/rhz253) in American Historical Review.
+**Do you want to learn a new skill in this Spring Term?** In this workshop we explore how to use the Gephi software to visualise and understand 17th century social networks. Gephi is a free open-source visualization and exploration tool useful for all kinds of graphs and networks. Visual thinking based on interactive interfaces tend to facilitate reasoning and compliment traditional statistics which in turn may enhance hypothesis building, pattern discovery as well as research and teaching generally. This workshop is being delivered by a team of Senior Research Software Engineers from the Centre for Digital Enquiry ([CDI](https://warwick.ac.uk/fac/cross_fac/cdi/)) and Information and Digital Group (IDG) Technology for Research in the University of Warwick.
 
 ## Learning objectives
 
@@ -27,16 +20,21 @@ social networks
 
 ## Requirements
 
-• Properly installed [Gephi software version 0.9.2](https://gephi.org/users/download/). You can find
-installation guide [here](https://gephi.org/users/install/). Issues with Java, speak to helpdesk. Email if stuck. If you encounter Gephi issues with Java, then you can also look at [this blog post](https://medium.com/coder-snorts/gephi-is-broken-on-mac-os-97fbaef4305e#.cogwsls13) and or video [here](https://www.youtube.com/watch?v=3r3hU_gfcuA) or [there](https://youtu.be/Lv59Lu-Jqxs).
-
-• Managed Windows Desktop access to Gephi or via Software Centre.
+• [Gephi software](https://gephi.org/users/download/). You can find an installation guide [here](https://gephi.org/users/install/). If you have Java issues and are a University of Warwick student/staff then please do contact the ITS helpdesk. If you encounter Gephi issues with Java, then you can also look at [this blog post](https://medium.com/coder-snorts/gephi-is-broken-on-mac-os-97fbaef4305e#.cogwsls13) and or video [here](https://www.youtube.com/watch?v=3r3hU_gfcuA) or [there](https://youtu.be/Lv59Lu-Jqxs). *Note:* Gephi is available via the Software Centre if you are using a Windows 10 Managed Laptop.
 
 • Access to a computer with internet connection for downloading data.
 
 • Data source for this workshop: [Quakers](https://github.com/melaniewalsh/sample-social-network-datasets/tree/master/sample-datasets/quakers).
 
+• No prior knowledge of Gephi or social network data is required.
+
+• Up to 90 minutes of your time.
+
 # Activity 1: Quakers Network
+
+### Quakers: who are they?
+
+Quakers, also known formally as the ["Religious Society of Friends](https://en.wikipedia.org/wiki/Quakers)", is a society founded in England in the mid-17th century and made up of a historically Protestant Christian set of denominations. Quakers have a believe that each human being has the ability to experience the "light within" or see "that of God in every one". As indicated in the requirements section above, we will use social network data about the relationships between seventeenth-century Quakers; data is a scaled-down version of larger dataset which is a reconstruction of the early modern social network of Britain (1500-1700).
 
 ### Setup the folder for your work
 
@@ -147,7 +145,7 @@ network).
 
     ![](images/fig3.png)
 
-2.  Click on file and select ‘Import Spreadsheet’
+2.  Click on file and select ‘Import Spreadsheet’.
 
     ![](images/fig4.png)
 
@@ -253,11 +251,11 @@ would point you to are:
 
 The above are suggestions. Explore the network and experiment :blush:
 
-## Centrality plenary
+# Activity 2: Centrality plenary
 
-So far, we have imported and visualised nodes and edges as a network (can also be called a graph or sociogram) as well as had a reflexive exercise using some questions. Although a useful exercise, it may be hard to examine the network by only observing it visually. To help us understand or examine the network further, there is the need to have a way to measure aspects of the network; this is where the concept of Centrality becomes useful. Centrality helps us to understand the importance of nodes (e.g., actors, people, etc.) and edges (e.g., links, connections, etc.) in a network. In a literal sense, Centrality is the quality or fact of being the main or most important part of something (a network in our case).
+So far, we have imported and visualised nodes and edges as a network (can also be called a graph or sociogram) as well as had a reflexive exercise using some questions. Although a useful exercise, it may be hard to examine the network by only observing it visually. To help us understand or examine the network further, there is the need to have a way to measure aspects of the network; this is where the concept of Centrality becomes useful. Centrality helps us to understand the importance of nodes (e.g., actors, people, etc.) and edges (e.g., links, connections, etc.) in a network. ***In a literal sense, Centrality is the quality or fact of being the main or most important part of something (a network in our case).***
 
-Centrality as a concept in the study of social networks is very important. Although important, and like many concepts in research, it is not without criticisms – [particularly when it comes to graph theory](https://doi.org/10.1016/0378-8733(78)90021-7). Such criticisms and graph theories are beyond the scope of this workshop. [Early research](https://doi.org/10.1016/0378-8733(78)90021-7) in the 1940s and 50s tend to relate the concept to perception of leadership, group efficiency, personal satisfaction of participants. The centrality idea as related to human communication was first introduced under the direction of an American Psychosocialist [Alexander Bavelas](https://en.wikipedia.org/wiki/Alex_Bavelas) in the late 1940s; very early research application was done at the Group Networks Laboratory at MIT. In practice, there are several ways of measuring centrality using measures such as Degree, Betweenness, Closeness (this one is credited to Alexander Bavelas), among others. Each centrality measure tends to have its own definition of “importance” so it is important to understand their definition and how that could be applied to your research context (e.g., examining structures of power or prestige or visibility of group members). In this workshop, we will look at both Degree and Betweenness centrality measures; we will adapt the content from [Cambridge Intelligence](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) and [ScienceDirect](https://www.sciencedirect.com/topics/computer-science/degree-centrality). 
+Centrality as a concept in the study of social networks is very important. Although important, and like many concepts in research, it is not without criticisms – [particularly when it comes to graph theory](https://doi.org/10.1016/0378-8733(78)90021-7). Such criticisms and graph theories are beyond the scope of this workshop. [Early research](https://doi.org/10.1016/0378-8733(78)90021-7) in the 1940s and 50s tend to relate the concept to perception of leadership, group efficiency, personal satisfaction of participants. The centrality idea as related to human communication was first introduced under the direction of an American Psychosocialist [Alexander Bavelas](https://en.wikipedia.org/wiki/Alex_Bavelas) in the late 1940s; very early research application was done at the Group Networks Laboratory at MIT. ***In practice, there are several ways of measuring centrality using measures such as Degree, Betweenness, Closeness (this one is credited to Alexander Bavelas), among others. Each centrality measure tends to have its own definition of “importance” so it is important to understand their definition and how that could be applied to your research context*** (e.g., examining structures of power or prestige or visibility of group members). In this workshop, ***we will look at both Degree and Betweenness centrality measures***; we will adapt the content from [Cambridge Intelligence](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) and [ScienceDirect](https://www.sciencedirect.com/topics/computer-science/degree-centrality). 
 
 ### Degree Centrality
 Degree Centrality is considered the simplest centrality measure of node connectivity in a network; it is easy to compute.
@@ -279,7 +277,7 @@ Degree Centrality is considered the simplest centrality measure of node connecti
 This part will demonstrate how both the Degree and Betweenness centrality measures could be explored using Gephi. We will now go back to using Gephi to explore the two centrality measures.
 
 ### Degree Centrality demo
-Step 1. Open Gephi and create a New Project
+**Step 1.** Open Gephi and create a New Project
 
 ![](images/fig9.png)
 
@@ -287,50 +285,50 @@ Step 2. Save empty project as **Project_centrality.gephi**
 
 ![](images/fig10.png) | ![](images/fig11.png)
 
-Step 3. Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
+**Step 3.** Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
 
 ![](images/fig12.png) | ![](images/fig13.png)
 
-Step 4. Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
+**Step 4.** Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
 
 ![](images/fig14.png)
 
-Step 5. Now we want to focus on the Nodes in the network and compute the Degree Centrality measure. We want to use colour coding that can given us some idea about more or less or middle connected nodes. As a random choice, let’s use a red-yellow-blue coding system/scheme where red is less connected, blue is more connected, and yellow is middle (i.e., somewhere in between more or less connected nodes). To do this, go to Appearance dialog -> Select Color -> Select Nodes -> Select Ranking -> Select Degree [this is the selection of Degree Centrality measure] -> Select Color Default -> Select the last Color-coding system (i.e., red-yellow-blue) -> Click Apply button.
+**Step 5.** Now we want to focus on the Nodes in the network and compute the Degree Centrality measure. We want to use colour coding that can given us some idea about more or less or middle connected nodes. As a random choice, let’s use a red-yellow-blue coding system/scheme where red is less connected, blue is more connected, and yellow is middle (i.e., somewhere in between more or less connected nodes). To do this, go to Appearance dialog -> Select Color -> Select Nodes -> Select Ranking -> Select Degree [this is the selection of Degree Centrality measure] -> Select Color Default -> Select the last Color-coding system (i.e., red-yellow-blue) -> Click Apply button.
 
 ![](images/fig15.png)
 
-Step 6. You might have noticed that although there are differences in the color of the Nodes in terms of “connectedness” after computing the Degree Centrality measure, the sizes of the Nodes remain the same which may serve as blocker for interpretation or better visualisation. Let us try to use the steps in the screenshot below to alter the sizes of the Nodes to also reflect the Degree Centrality measure as applied to the color of the Nodes. Save project.
+**Step 6.** You might have noticed that although there are differences in the color of the Nodes in terms of “connectedness” after computing the Degree Centrality measure, the sizes of the Nodes remain the same which may serve as blocker for interpretation or better visualisation. Let us try to use the steps in the screenshot below to alter the sizes of the Nodes to also reflect the Degree Centrality measure as applied to the color of the Nodes. Save project.
 
 ![](images/fig16.png)
 
-Step 7. This setup has a **question** about the output from Step 6 above which is: **How many Nodes do you think have many edges per Step 5 output (see screenshot below and recall the definition of Degree Centrality measure as well as the color scheme used)?** Save the project.
+**Step 7.** This setup has a **question** about the output from Step 6 above which is: **How many Nodes do you think have many edges per Step 5 output (see screenshot below and recall the definition of Degree Centrality measure as well as the color scheme used)?** Save the project.
 
 ![](images/fig17.png)
 
 ### Betweenness Centrality demo
 Some of the steps here will be without screenshots given that previous section on Degree Centrality demo has dealt with them. 
 
-Step 1. Open Gephi and create a New Project
+**Step 1.** Open Gephi and create a New Project
 
-Step 2. Save empty project as **Project_betweeness_centrality.gephi**
+**Step 2**. Save empty project as **Project_betweeness_centrality.gephi**
 
-Step 3. Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
+**Step 3.** Load the **quakers-network.graphml** file by going to **File -> Open… -> Select “Append to existing workspace” -> Click Ok button**
 
-Step 4. Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
+**Step 4.** Zoom-in graph on the white canvas so that it is centred but more legible. Tip: you can also use the middle of your mouse, if you have one, to zoom-in further.
 
-Step 5. We need to compute Network Diameter (ND) statistics prior to calculating Betweenness Centrality. Go to Statistics dialog -> Network Diameter -> Click Run button -> Click Ok button in “Graph Distance settings dialog” -> Check HTML Report and close it. The ND is the longest graph-distance between any two Nodes in the Quakers Network or, in other words ND is answer to the question “How far are the two most distant Nodes in the network?”. Note that connected nodes have a graph distance of 1. 
+**Step 5.** We need to compute Network Diameter (ND) statistics prior to calculating Betweenness Centrality. Go to Statistics dialog -> Network Diameter -> Click Run button -> Click Ok button in “Graph Distance settings dialog” -> Check HTML Report and close it. The ND is the longest graph-distance between any two Nodes in the Quakers Network or, in other words ND is answer to the question “How far are the two most distant Nodes in the network?”. Note that connected nodes have a graph distance of 1. 
 
 ![](images/fig18.png)
 
-Step 6. Now let us compute Betweenness Centrality measure using same color scheme (see steps in screenshot below).
+**Step 6.** Now let us compute Betweenness Centrality measure using same color scheme (see steps in screenshot below).
 
 ![](images/fig19.png)
 
-Step 7. Now let us compute Betweenness Centrality measure using same Node size scheme (see steps in screenshot below).
+**Step 7.** Now let us compute Betweenness Centrality measure using same Node size scheme (see steps in screenshot below).
 
 ![](images/fig20.png)
 
-Step 8. Based on the output from Step 7 shown below, what are the important Nodes that appear to be serving as “bridges” or “betweenness” between other Nodes in a network?
+**Step 8.** Based on the output from Step 7 shown below, what are the important Nodes that appear to be serving as “bridges” or “betweenness” between other Nodes in a network?
 
 ![](images/fig21.png)
 
@@ -401,7 +399,6 @@ download. The below are just a few examples.
     Hermeneutics to Data to Networks: Data Extraction and Network
     Visualization of Historical Sources \| Programming
     Historian](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
-    .
 
 -   [Martin Grandjean » Digital humanities, Data visualization, Network
     analysis » GEPHI – Introduction to Network Analysis and
