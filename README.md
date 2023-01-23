@@ -28,7 +28,7 @@ social networks
 
 • No prior knowledge of Gephi or social network data is required.
 
-• Up to 90 minutes of your time.
+• Up to 2 hours of your time.
 
 # Activity 1: Quakers Network
 
