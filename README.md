@@ -30,6 +30,8 @@ social networks
 
 • Up to 2 hours of your time.
 
+• In-person workshop.
+
 # Activity 1: Quakers Network
 
 ### Quakers: who are they?
