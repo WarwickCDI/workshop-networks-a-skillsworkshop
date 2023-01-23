@@ -32,6 +32,8 @@ social networks
 
 • In-person workshop.
 
+• You will need a basic level computer experience such as saving files in folders, getting the right software to install, moving files, using internet browsers.
+
 # Activity 1: Quakers Network
 
 ### Quakers: who are they?
