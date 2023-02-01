@@ -353,6 +353,10 @@ From the two maps below generated from computing the two measures, it appears th
 
 ![](images/Table1.png)
 
+## Your feedback
+
+Please use about two minutes to provide your feedback using the following link (Warwick account is required): [Feedback form to fill](https://warwick.ac.uk/fac/cross_fac/cdi/news-events/social-networks-gephi-training-2023-spring-term/feedback).
+
 ## Going Further
 
 Networks are an interesting way to collect, form and explore
