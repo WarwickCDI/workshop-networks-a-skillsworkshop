@@ -355,7 +355,7 @@ From the two maps below generated from computing the two measures, it appears th
 
 ## Your feedback
 
-Please use about two minutes to provide your feedback using the following link (No Warwick IT account is required and form will be closed after workshop): [Feedback form to fill](https://warwick.ac.uk/fac/cross_fac/cdi/news-events/social-networks-gephi-training-2023-spring-term/feedback).
+Please use about two minutes to provide your feedback using the following link (No Warwick IT account is required and form will be closed after workshop): [Feedback form to fill](https://warwick.ac.uk/fac/cross_fac/cdi/news-events/social-networks-gephi-training-2023-autumn-term/feedback/).
 
 ## Going Further
 
