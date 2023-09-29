@@ -105,7 +105,7 @@ Have a look through the file and consider:
 Each line gives us the source and target node (you can view the file in
 Excel or online
 [here](https://github.com/melaniewalsh/sample-social-network-datasets/blob/master/sample-datasets/quakers/quaker-edges.csv)).
-Network software will use this file to raw a line (edge) between the
+Network software will use this file to draw a line (edge) between the
 source and target node, where the names in this file correspond to the
 label in the quaker-nodes.csv file. Briefly looking through the file, do
 you:
